@@ -10,11 +10,6 @@ android {
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
-        externalNativeBuild {
-            cmake {
-                cppFlags "-frtti -fexceptions"
-            }
-        }
     }
 
     buildTypes {
@@ -24,11 +19,6 @@ android {
         }
     }
 
-    externalNativeBuild {
-        cmake {
-            path "CMakeLists.txt"
-        }
-    }
 
 }
 
