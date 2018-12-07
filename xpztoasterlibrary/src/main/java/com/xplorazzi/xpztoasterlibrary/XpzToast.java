@@ -11,6 +11,7 @@ public class XpzToast {
 
     }
 
+    // linked with cpp code..
     public native String stringFromJNI();
 
 
